@@ -1,6 +1,6 @@
 # sysinfo.sh
 
-BASH script that gathers system information and writes to terminal
+BASH script that gathers system information and prints to terminal
 
 Small script tested in a Debian VM - Should run in most 'nix' spins
 
