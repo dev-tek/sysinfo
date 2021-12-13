@@ -10,13 +10,14 @@ Warning - please DO NOT run foreign BASH scripts you do not fully understand and
 
 Script is PROVIDED "AS IS" and is for educational purposes only
 
+
 Usage:
 
 D/L the raw sysinfo.sh file into a working directory of your choice - wget, curl .etc
 
 I drop mine into a BASH dir I set aside for .sh files
 
-Once acquired, $chmod +x sysinfo.sh in order to change file permissons to executable
+Once acquired, $chmod +x sysinfo.sh in order to change the file permissons to executable
 
 To run script from CLI in your terminal emulator: $./sysinfo.sh or alternatively $bash sysinfo.sh 
 
@@ -35,9 +36,5 @@ Authored by Mendel Cooper
 URL: https://tldp.org/LDP/abs/abs-guide.pdf   PDF format 916 pages
 
 
- ____    _    ____  _   _ 
-| __ )  / \  / ___|| | | |
-|  _ \ / _ \ \___ \| |_| |
-| |_) / ___ \ ___) |  _  |
-|____/_/   \_\____/|_| |_| ' Bourne-Again SHell '
+Have a great time in BASH!' Bourne-Again SHell '
 
