@@ -27,7 +27,7 @@ To run script from CLI in your terminal emulator: $./sysinfo.sh or alternatively
 
 Have fun editing and customizing it for your needs while learning more about BASH scripting
 
-I drop mine into an alias within .bashrc - example: alias=sys'bash your_working_directory/file_path/sysinfo.sh' 
+I drop mine into an alias inside .bashrc - example: alias sys='bash your_working_directory/file_path/sysinfo.sh' 
 
 If you are interested in working and learning more about BASH scripting - one free source is:
 
