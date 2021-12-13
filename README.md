@@ -4,9 +4,13 @@ BASH script that gathers system information and writes to terminal
 
 Small script tested in a Debian VM - Should run in most 'nix' spins
 
-Pieced together over time - may be of some use 
+Pieced together over time - apologies to unattributed authors and contributors 
 
-Warning - please DO NOT run foreign BASH scripts you do not fully understand and trust.
+If you think some of your code is in this release please contact me and I will immediately correct 
+
+sysinfo.sh may be of some use for gathering system information quickly and learning more about BASH scripting 
+
+Warning - please DO NOT run foreign BASH scripts you do not fully understand and trust
 
 Script is PROVIDED "AS IS" and is for educational purposes only
 
