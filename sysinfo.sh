@@ -3,7 +3,7 @@
 fstr=$(tput bold)
 fend=$(tput sgr0)
 
-# 12.13.21 edit @ some point in order to improve add some color possibly
+# 12.13.21 - edit in order to customize for your specific needs - have fun! 
 echo -e
 echo -e "--------------------------------System Information----------------------------------------------"
 echo -e
@@ -65,7 +65,7 @@ grep Swap /proc/meminfo
 
 vmstat
 
-# Check disk usages
+# Check disk usage
 echo "${fstr}Disk usages:${fend}" && df -h --type=ext4 | awk '/\/dev\// {printf "[%4s of %4s] %s -> %s\n", $5, $2, substr($1, 6, length($1)), $6}'
 
 echo -e
@@ -96,3 +96,5 @@ echo -e
 #traceroute Goolgle public DNS server 
 traceroute 8.8.8.8
 echo -e
+# exit 0 when terminating from root privileges
+exit 1 
