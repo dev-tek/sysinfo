@@ -1,5 +1,5 @@
 #alias payload='xargs -a /home/developer_tek/dev/bash/packages.txt sudo apt-get install -y'
-
+#export PS1="\d\t\w " 
 mlocate
 traceroute
 figlet
