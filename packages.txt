@@ -1,0 +1,13 @@
+#alias payload='xargs -a /home/developer_tek/dev/bash/packages.txt sudo apt-get install -y'
+
+mlocate
+traceroute
+figlet
+tree 
+nmap
+glances
+htop
+tty-clock
+vnstat
+pydf
+apt-utils
